@@ -1,13 +1,20 @@
-table, tr, th, td {
-  border: 0;
-}
 
+html {
+  background-color:#f0efef;
+}
 body {
-  width:90%;
+  width:900px;
+  border: 1px solid lightgray;
+  margin:auto;
+  padding:20px;
+  background-color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align:center;
 }
 
 th {
   vertical-align:top;
+  background: lightblue;
 }
 
 td {
@@ -17,8 +24,26 @@ td {
 
 th {
   text-align:center;
+  padding:5px;
+  font-style:italic;
+  text-align:center;
 }
 
 ul {
    margin:0;
+}
+
+table {
+  max-width:850px;
+  background-color:beige;
+  text-align:left; 
+  margin:auto;
+}
+
+td:first-child {
+  text-align:center;
+}
+
+td:nth-child(4) {
+  text-align:center;
 }
